@@ -10,8 +10,7 @@ universal behaviour testing tool in python, keep a copy in a working directory o
 $ ./ptest.py record test.list
 $ ptest record test.list        # command-line tool
 ```
-The above command should create [test.list.bi](./test.list.bi) snapshot file with stdout, stderr, and returncode captured as the expected behaviour. The file uses [bi format](http\
-s://github.com/tsoding/bi-format); for more info, see [Snapshot Schema](#snapshot-schema).
+The above command should create [test.list.bi](./test.list.bi) snapshot file with stdout, stderr, and returncode captured as the expected behaviour. The file uses [bi format](http\s://github.com/tsoding/bi-format); for more info, see [Snapshot Schema](#snapshot-schema).
 
 3. Replay the command lines, checking their behavior against the recorded one:
 ```console
